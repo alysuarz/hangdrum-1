@@ -1,0 +1,101 @@
+body{
+    background-color: #181818;
+    position: relative;
+    width: 1122px;
+    height: 700px;
+}
+
+
+
+
+/* shake animation is taken from https://stackoverflow.com/questions/36962903/javascript-shake-html-element ; im not sure if it is a framework or library. */
+@-webkit-keyframes shake {
+    0% { -webkit-transform: translate(2px, 1px) rotate(0deg); } 
+    10% { -webkit-transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { -webkit-transform: translate(-3px, 0px) rotate(1deg); }
+    30% { -webkit-transform: translate(0px, 2px) rotate(0deg); }
+    40% { -webkit-transform: translate(1px, -1px) rotate(1deg); }
+    50% { -webkit-transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { -webkit-transform: translate(-3px, 1px) rotate(0deg); }
+    70% { -webkit-transform: translate(2px, 1px) rotate(-1deg); }
+    80% { -webkit-transform: translate(-1px, -1px) rotate(1deg); }
+    90% { -webkit-transform: translate(2px, 2px) rotate(0deg); }
+    100% { -webkit-transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+.shake:hover {
+    -webkit-animation-name: shake;
+    -webkit-animation-duration: 0.5s;
+    -webkit-transform-origin:50% 50%;
+    -webkit-animation-iteration-count: infinite;
+}
+.shake {
+    display:inline-block;
+}
+
+
+/* i made all images on figma and i've taken the code directly from there */
+.s{
+    position: absolute;
+    width: 118.69px;
+    height: 118.89px;
+    left: 289px;
+    top: 358px;
+
+}
+
+.d{
+    position: absolute;
+    width: 118.69px;
+    height: 118.69px;
+    left: 301px;
+    top: 220px;
+}
+.f{
+    position: absolute;
+width: 118.69px;
+height: 118.69px;
+left: 434px;
+top: 150px;
+
+}
+.j{
+    position: absolute;
+width: 118.69px;
+height: 118.69px;
+left: 576px;
+top: 150px;
+
+}
+.k{
+    position: absolute;
+    width: 118.69px;
+    height: 118.69px;
+    left: 704px;
+    top: 214px;
+}
+.l{
+    position: absolute;
+width: 118.69px;
+height: 118.69px;
+left: 716px;
+top: 358px;
+
+}
+
+
+
+    
+
+
+
+.space{
+
+    position: absolute;
+    width: 267.82px;
+    height: 269px;
+    left: 428px;
+    top: 291px;
+}
+
+
